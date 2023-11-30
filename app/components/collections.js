@@ -43,7 +43,7 @@ export default function Collections() {
   return (
     <div className="flex flex-col w-full py-10">
       <div className="text-white text-xl font-bold pb-10">Collections</div>
-      <div className="w-full  ">
+      <div className="w-full ">
         <Swiper
           grabCursor={true}
           slidesPerView="1"
@@ -58,7 +58,7 @@ export default function Collections() {
                   style={{
                     backgroundImage: `url(${poster.imgUrl})`,
                   }}
-                  className=" bg-cover bg-center bg-no-repeat  border border-gray-300 rounded-md  shadow-inner shadow-white p-4 w-56 h-96 flex justify-start items-end font-bold text-white"
+                  className="m-auto bg-cover bg-center bg-no-repeat  border border-gray-300 rounded-md  shadow-inner shadow-white p-4 w-56 h-96 flex justify-start items-end font-bold text-white"
                 >
                   {poster.name}
                 </div>
