@@ -4,11 +4,11 @@ import Image from 'next/image';
 
 export default function LicensedProducts() {
   const Images = [
-    '/dc.svg',
-    '/looney_tones.svg',
-    '/game_of_thrones.svg',
-    '/harry_potter.svg',
-    '/friends.svg',
+    '/Licensed/dc.svg',
+    '/Licensed/looney_tones.svg',
+    '/Licensed/game_of_thrones.svg',
+    '/Licensed/harry_potter.svg',
+    '/Licensed/friends.svg',
   ];
   return (
     <div className="w-full flex flex-col items-center">

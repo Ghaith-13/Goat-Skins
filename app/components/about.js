@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function About() {
   return (
-    <div className="flex md:flex-row flex-col w-full h-screen justify-between">
+    <div className="flex md:flex-row flex-col w-full py-28 sm:justify-between">
       <Image
         src="/teams_t_shirts.svg"
         alt="Teams_t_shirts"

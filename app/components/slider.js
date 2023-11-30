@@ -9,7 +9,7 @@ import { EffectCube, Pagination, Navigation, Autoplay } from 'swiper/modules';
 
 const Slider = () => {
   return (
-    <div className="w-full">
+    <div className="w-full h-[300px] sm:h-[800px]">
       <Swiper
         style={{
           '--swiper-pagination-color': '#ffffff',
@@ -39,57 +39,102 @@ const Slider = () => {
         <SwiperSlide>
           <div
             style={{
-              backgroundImage: `url('/slider.png')`,
+              backgroundImage: `url('/slider.svg')`,
             }}
-            className="bg-cover bg-center bg-no-repeat  h-screen  w-full  flex "
+            className="bg-cover bg-center bg-no-repeat  h-[300px] sm:h-[800px]  w-full  flex "
           >
-            <div className="w-full md:w-2/3 h-1/3  justify-end  flex-col text-center flex">
-              <div className="flex justify-center gap-x-4 gap-y-4">
-                <span className="font-bold text-2xl sm:text-4xl md:text-7xl font-abc text-white font-monument">
+            <div className="w-full md:w-2/3  sm:h-1/3  justify-end  flex-col text-center flex ">
+              <div className="flex justify-center gap-x-4 gap-y-4 ">
+                <span className="font-bold text-2xl sm:text-4xl md:text-7xl font-abc text-white  ">
                   The{'  '}
                 </span>
-                <div className="font-bold text-2xl sm:text-4xl md:text-7xl font-abc text-[#FFE500] font-monument  ">
+                <div className="font-bold text-2xl sm:text-4xl md:text-7xl font-abc text-[#FFE500]    ">
                   Goat{'  '}
                 </div>
-                <span className="font-bold text-2xl sm:text-4xl md:text-7xl font-abc text-white font-monument">
+                <span className="font-bold text-2xl sm:text-4xl md:text-7xl font-abc text-white  ">
                   Has{' '}
                 </span>
               </div>
-              <div className="font-bold text-2xl sm:text-4xl md:text-7xl font-abc text-white font-monument flex justify-center">
+              <div className="font-bold text-2xl sm:text-4xl md:text-7xl font-abc text-white  flex justify-center">
                 Arrived{''}
               </div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          {' '}
           <div
             style={{
-              backgroundImage: `url('/slider.png')`,
-              alignItems: 'center',
+              backgroundImage: `url('/slider.svg')`,
             }}
-            className="bg-cover bg-center bg-no-repeat  h-screen  w-full justify-end   flex flex-col"
-          ></div>
-        </SwiperSlide>
+            className="bg-cover bg-center bg-no-repeat  h-[300px] sm:h-[800px]  w-full  flex "
+          >
+            <div className="w-full md:w-2/3  sm:h-1/3  justify-end  flex-col text-center flex ">
+              <div className="flex justify-center gap-x-4 gap-y-4 ">
+                <span className="font-bold text-2xl sm:text-4xl md:text-7xl font-abc text-white  ">
+                  The{'  '}
+                </span>
+                <div className="font-bold text-2xl sm:text-4xl md:text-7xl font-abc text-[#FFE500]    ">
+                  Goat{'  '}
+                </div>
+                <span className="font-bold text-2xl sm:text-4xl md:text-7xl font-abc text-white  ">
+                  Has{' '}
+                </span>
+              </div>
+              <div className="font-bold text-2xl sm:text-4xl md:text-7xl font-abc text-white  flex justify-center">
+                Arrived{''}
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>{' '}
         <SwiperSlide>
-          {' '}
           <div
             style={{
-              backgroundImage: `url('/slider.png')`,
-              alignItems: 'center',
+              backgroundImage: `url('/slider.svg')`,
             }}
-            className="bg-cover bg-center bg-no-repeat  h-screen  w-full justify-end   flex flex-col"
-          ></div>
-        </SwiperSlide>
+            className="bg-cover bg-center bg-no-repeat  h-[300px] sm:h-[800px]  w-full  flex "
+          >
+            <div className="w-full md:w-2/3  sm:h-1/3  justify-end  flex-col text-center flex ">
+              <div className="flex justify-center gap-x-4 gap-y-4 ">
+                <span className="font-bold text-2xl sm:text-4xl md:text-7xl font-abc text-white  ">
+                  The{'  '}
+                </span>
+                <div className="font-bold text-2xl sm:text-4xl md:text-7xl font-abc text-[#FFE500]    ">
+                  Goat{'  '}
+                </div>
+                <span className="font-bold text-2xl sm:text-4xl md:text-7xl font-abc text-white  ">
+                  Has{' '}
+                </span>
+              </div>
+              <div className="font-bold text-2xl sm:text-4xl md:text-7xl font-abc text-white  flex justify-center">
+                Arrived{''}
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>{' '}
         <SwiperSlide>
-          {' '}
           <div
             style={{
-              backgroundImage: `url('/slider.png')`,
-              alignItems: 'center',
+              backgroundImage: `url('/slider.svg')`,
             }}
-            className="bg-cover bg-center bg-no-repeat  h-screen  w-full justify-end   flex flex-col"
-          ></div>
+            className="bg-cover bg-center bg-no-repeat  h-[300px] sm:h-[800px]  w-full  flex "
+          >
+            <div className="w-full md:w-2/3  sm:h-1/3  justify-end  flex-col text-center flex ">
+              <div className="flex justify-center gap-x-4 gap-y-4 ">
+                <span className="font-bold text-2xl sm:text-4xl md:text-7xl font-abc text-white  ">
+                  The{'  '}
+                </span>
+                <div className="font-bold text-2xl sm:text-4xl md:text-7xl font-abc text-[#FFE500]    ">
+                  Goat{'  '}
+                </div>
+                <span className="font-bold text-2xl sm:text-4xl md:text-7xl font-abc text-white  ">
+                  Has{' '}
+                </span>
+              </div>
+              <div className="font-bold text-2xl sm:text-4xl md:text-7xl font-abc text-white  flex justify-center">
+                Arrived{''}
+              </div>
+            </div>
+          </div>
         </SwiperSlide>
       </Swiper>
     </div>

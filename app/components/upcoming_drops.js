@@ -8,19 +8,19 @@ export default function UpComingDrops() {
       name: 'Drop Name',
       havePrice: true,
       haveButton: true,
-      imageUrl: '/Australia_yellow.svg',
+      imageUrl: '/Australia_Yellow.svg',
     },
     {
       name: 'Drop Name',
       havePrice: false,
       haveButton: false,
-      imageUrl: '/Australia_yellow.svg',
+      imageUrl: '/Australia_Yellow.svg',
     },
     {
       name: 'Drop Name',
       havePrice: false,
       haveButton: false,
-      imageUrl: '/Australia_yellow.svg',
+      imageUrl: '/Australia_Yellow.svg',
     },
   ];
   return (
