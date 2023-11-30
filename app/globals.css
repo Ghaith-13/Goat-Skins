@@ -1,27 +1,23 @@
+@import url(https://db.onlinewebfonts.com/c/55d433372d270829c51e2577a78ef12d?family=Monument+Extended+Bold);
+@import url(https://db.onlinewebfonts.com/c/2bc662e7204dfbe2bf8d7b6f4eb6f446?family=PP+Monument+Extended);
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@keyframes fillPaginationBullet {
+  from {
+    background-color: #999999;
+    background-position: left;
+  }
+  to {
+    background-color: white;
+    background-position: right;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.swiper-pagination-bullet-active {
+  animation: fillPaginationBullet 5s linear forwards;
+}
+.swiper-pagination-bullet {
+  opacity: 0.9;
 }
